@@ -1,24 +1,6 @@
 ProjectWhaa::Application.routes.draw do
 
-get '/tweets', to: "tweets#index" #this is syntax for sending the 
-
-
-get 'tweets/new' , to: "tweets#new" 
-
-
-post '/tweets/created' to: "tweets#show"
-
-
-
-
-
-
-
-
-
-
-
-
+resources :tweets
 
 
 
