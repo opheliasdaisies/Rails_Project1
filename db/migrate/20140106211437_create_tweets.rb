@@ -1,13 +1,14 @@
 class CreateTweets < ActiveRecord::Migration
   def up
-    create_table :tweets do |t|
-      t.text :body
-      t.timestamps
+    drop_table :tweets
 
   end
 
   def down
-    drop_table :tweets
-
+    create_table :tweets do |t|
+          t.text :body
+          t.timestamps
+          
+    end
   end
 end

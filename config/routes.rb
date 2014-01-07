@@ -6,7 +6,7 @@ get '/tweets', to: "tweets#index" #this is syntax for sending the
 get 'tweets/new' , to: "tweets#new" 
 
 
-post '/tweets/new' to: "tweets#show"
+post '/tweets/created' to: "tweets#show"
 
 
 

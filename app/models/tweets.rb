@@ -1,4 +1,4 @@
-class Tweet < ActiveRecord::Base
+class Tweets < ActiveRecord::Base
 
 end
 
