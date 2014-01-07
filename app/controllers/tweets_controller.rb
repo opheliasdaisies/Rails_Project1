@@ -1,7 +1,8 @@
 #tweets_controller.rb (route vs controller = route vs actions)
 class TweetsController < ApplicationController
+
   def index
-    @tweets_controller = Tweet.all
+    @tweets = Tweet.all
   end
 
   def new
@@ -25,4 +26,3 @@ end
 
 
 
-get
